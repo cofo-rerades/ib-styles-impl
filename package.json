@@ -1,0 +1,17 @@
+{
+  "name": "extraterrestrial-equator",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@iberia/ib-design-system": "0.1.1-RC",
+    "@iberia/ib-styles-library": "0.1.5-RC",
+    "astro": "^5.7.13",
+    "husky": "^9.1.7"
+  }
+}

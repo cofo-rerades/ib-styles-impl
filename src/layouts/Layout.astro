@@ -1,0 +1,29 @@
+---
+import "@components/Menu.astro";
+import "@iberia/ib-styles-library/dist/styles/base.css";
+import "@iberia/ib-styles-library/dist/styles/utilities.css";
+import "@iberia/ib-styles-library/dist/styles/tokens.css";
+import "@iberia/ib-styles-library/dist/styles/layout.css";
+import Menu from "@components/Menu.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <header>
+      <Menu />
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <span>Footer dinámico (placeholder)</span>
+    </footer>
+  </body>
+</html>
