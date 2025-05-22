@@ -1,0 +1,31 @@
+.main-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1.5rem 0 2.5rem 0;
+  margin: 0;
+  list-style: none;
+  justify-content: flex-start;
+  border-bottom: 1px solid var(--ib-border-color, #e0e0e0);
+}
+.main-menu li {
+  margin: 0;
+}
+.main-menu a {
+  display: block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  color: var(--ib-primary-color, #003366);
+  background: var(--ib-bg-menu, #fff);
+  font-weight: 500;
+  font-size: 1.05rem;
+  text-decoration: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.main-menu a:hover,
+.main-menu a:focus {
+  background: var(--ib-primary-color, #003366);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
